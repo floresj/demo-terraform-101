@@ -1,8 +1,10 @@
+// Vars and stuff
 terraform {
-  required_version = ">= 2.27.0"
+  
 }
 
 provider "aws" {
+  version = ">= 2.27.0"
 }
 
 module "server" {

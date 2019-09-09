@@ -1,3 +1,4 @@
+// Vars and stuff
 terraform {
   required_version = ">= 2.27.0"
 }
